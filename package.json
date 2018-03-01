@@ -1,0 +1,41 @@
+{
+  "name": "vscode-extension-pack",
+  "version": "1.0.0",
+  "displayName": "SMTC Extension Pack",
+  "description": "An opinionated extension pack for VS Code.",
+  "publisher": "robertoachar",
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#122738",
+    "theme": "dark"
+  },
+  "homepage":
+    "https://github.com/robertoachar/vscode-extension-pack/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/vscode-extension-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/vscode-extension-pack/issues"
+  },
+  "categories": ["Extension Packs"],
+  "keywords": ["VSCode", "Extension", "Pack"],
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "extensionDependencies": [
+    "EditorConfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "ms-devlabs.extension-manifest-editor",
+    "Angular.ng-template",
+    "eg2.tslint",
+    "wesbos.theme-cobalt2",
+    "robertohuertasm.vscode-icons",
+    "ms-python.python",
+    "PeterJausovec.vscode-docker",
+    "robertoachar.vscode-essentials-snippets"
+  ],
+  "license": "SEE LICENSE IN LICENSE"
+}
