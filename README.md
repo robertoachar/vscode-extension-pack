@@ -6,51 +6,55 @@
 
 This extension pack provides the following extensions:
 
-* [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.editorconfig) - EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs.
+- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) - Automatically add HTML/XML close tag.
 
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint into VS Code.
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Auto rename paired HTML/XML tag.
 
-* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - VS Code plugin that autocompletes filenames.
+- [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2) - Official theme by Wes Bos.
 
-* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - VS Code package to format your JavaScript / TypeScript / CSS using Prettier.
+- [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula) - Official Dracula Theme. A dark theme for many editors, shells, and more.
 
-* [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) - This extension provides a rich editing experience for Angular templates, both inline and external templates.
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig) - EditorConfig Support for Visual Studio Code.
 
-* [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint) - Integrates the tslint linter for the TypeScript language into VS Code.
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint JavaScript into VS Code.
 
-* [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2) - Cobalt2 Theme Official by Wes Bos.
+- [language-stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus) - Stylus language support.
 
-* [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) - Bring icons to your VS Code.
+- [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) - A VS Code theme for the night owls out there.
 
-* [Extension Manifest Editor](https://marketplace.visualstudio.com/items?itemName=ms-devlabs.extension-manifest-editor) - This extension lets you preview the details page for your extension from within VS Code.
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - Visual Studio Code plugin that autocompletes filenames.
 
-* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - A VS Code extension with rich support for the Python language.
+- [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode) - Polaroid for your code.
 
-* [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker) - Docker Support for VS Code.
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - VS Code plugin for prettier/prettier.
 
-* [VSCode Essentials Snippets](https://marketplace.visualstudio.com/items?itemName=robertoachar.vscode-essentials-snippets) - A collection of essentials snippets for VS Code.
+- [VS Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare) - Real-time collaborative development from the comfort of your favorite tools.
+
+- [VSCode Essentials Snippets](https://marketplace.visualstudio.com/items?itemName=robertoachar.vscode-essentials-snippets) - A collection of essentials snippets for Visual Studio Code.
+
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) - Icons for Visual Studio Code.
 
 # Development
 
-* Clone the repo
+- Clone the repo
 
 ```bash
 $ git clone https://github.com/robertoachar/vscode-extension-pack.git
 ```
 
-* Install vsce
+- Install vsce
 
 ```bash
 $ npm install -g vsce
 ```
 
-* Build the extension file
+- Build the extension file
 
 ```bash
 $ vsce package
 ```
 
-* Install the extension from a package file (.vsix)
+- Install the extension from a package file (.vsix)
 
 1. Launch Visual Studio Code
 2. Choose **Extensions** from menu
@@ -60,19 +64,19 @@ $ vsce package
 
 # Publishing
 
-* Create a publisher
+- Create a publisher
 
 ```bash
 $ vsce create-publisher <publisher-name>
 ```
 
-* Login
+- Login
 
 ```bash
 $ vsce login <publisher-name>
 ```
 
-* Publish
+- Publish
 
 ```bash
 $ vsce publish
