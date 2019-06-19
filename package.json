@@ -32,17 +32,17 @@
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
     "wesbos.theme-cobalt2",
-    "dracula-theme.theme-dracula",
     "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
     "sysoev.language-stylus",
-    "sdras.night-owl",
+    "ms-vsliveshare.vsliveshare",
     "christian-kohler.path-intellisense",
     "pnp.polacode",
     "esbenp.prettier-vscode",
-    "ms-vsliveshare.vsliveshare",
+    "visualstudioexptteam.vscodeintellicode",
     "robertoachar.vscode-essentials-snippets",
-    "robertohuertasm.vscode-icons"
+    "vscode-icons-team.vscode-icons",
+    "jpoissonnier.vscode-styled-components"
   ],
   "license": "SEE LICENSE IN LICENSE"
 }
