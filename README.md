@@ -1,4 +1,4 @@
-# SMTC Extension Pack
+# Oficina Extension Pack
 
 [![Visual Studio Marketplace][vsce-badge]][vsce-url]
 [![License][license-badge]][license-url]
