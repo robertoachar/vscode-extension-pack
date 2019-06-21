@@ -1,29 +1,22 @@
 {
   "name": "vscode-extension-pack",
-  "version": "3.0.0",
-  "displayName": "SMTC Extension Pack",
-  "description": "An opinionated extension pack for VS Code.",
+  "version": "3.0.1",
   "publisher": "robertoachar",
+  "displayName": "Oficina Extension Pack",
+  "description": "An opinionated extension pack for VS Code.",
   "icon": "images/logo.png",
   "galleryBanner": {
-    "color": "#192a56",
-    "theme": "dark"
-  },
-  "homepage": "https://github.com/robertoachar/vscode-extension-pack/blob/master/README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/robertoachar/vscode-extension-pack.git"
-  },
-  "bugs": {
-    "url": "https://github.com/robertoachar/vscode-extension-pack/issues"
+    "color": "#f0f4f8",
+    "theme": "light"
   },
   "categories": [
     "Extension Packs"
   ],
   "keywords": [
-    "VSCode",
-    "Extension",
-    "Pack"
+    "node",
+    "javascript",
+    "eslint",
+    "prettier"
   ],
   "engines": {
     "vscode": "^1.20.0"
@@ -44,5 +37,13 @@
     "vscode-icons-team.vscode-icons",
     "jpoissonnier.vscode-styled-components"
   ],
+  "homepage": "https://github.com/robertoachar/vscode-extension-pack/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/vscode-extension-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/vscode-extension-pack/issues"
+  },
   "license": "SEE LICENSE IN LICENSE"
 }

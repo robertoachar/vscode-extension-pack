@@ -1,5 +1,6 @@
-# SMTC Extension Pack
+# Oficina Extension Pack
 
+[![Visual Studio Marketplace][vsce-badge]][vsce-url]
 [![License][license-badge]][license-url]
 
 > An opinionated extension pack for VS Code.
@@ -90,5 +91,7 @@ $ vsce publish
 
 [MIT](https://github.com/robertoachar/vscode-extension-pack/blob/master/LICENSE)
 
+[vsce-badge]: https://vsmarketplacebadge.apphb.com/version/robertoachar.vscode-extension-pack.svg
+[vsce-url]: https://marketplace.visualstudio.com/items?itemName=robertoachar.vscode-extension-pack
 [license-badge]: https://img.shields.io/github/license/robertoachar/vscode-extension-pack.svg
 [license-url]: https://opensource.org/licenses/MIT
