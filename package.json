@@ -1,6 +1,6 @@
 {
   "name": "vscode-extension-pack",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "displayName": "SMTC Extension Pack",
   "description": "An opinionated extension pack for VS Code.",
   "publisher": "robertoachar",
@@ -32,17 +32,17 @@
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
     "wesbos.theme-cobalt2",
-    "dracula-theme.theme-dracula",
     "editorconfig.editorconfig",
     "dbaeumer.vscode-eslint",
     "sysoev.language-stylus",
-    "sdras.night-owl",
+    "ms-vsliveshare.vsliveshare",
     "christian-kohler.path-intellisense",
     "pnp.polacode",
     "esbenp.prettier-vscode",
-    "ms-vsliveshare.vsliveshare",
+    "visualstudioexptteam.vscodeintellicode",
     "robertoachar.vscode-essentials-snippets",
-    "robertohuertasm.vscode-icons"
+    "vscode-icons-team.vscode-icons",
+    "jpoissonnier.vscode-styled-components"
   ],
   "license": "SEE LICENSE IN LICENSE"
 }
