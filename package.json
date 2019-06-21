@@ -2,12 +2,12 @@
   "name": "vscode-extension-pack",
   "version": "3.0.0",
   "publisher": "robertoachar",
-  "displayName": "SMTC Extension Pack",
+  "displayName": "Oficina Extension Pack",
   "description": "An opinionated extension pack for VS Code.",
   "icon": "images/logo.png",
   "galleryBanner": {
-    "color": "#192a56",
-    "theme": "dark"
+    "color": "#f0f4f8",
+    "theme": "light"
   },
   "categories": [
     "Extension Packs"
